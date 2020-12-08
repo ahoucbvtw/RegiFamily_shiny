@@ -22,7 +22,7 @@ def shinny_check():
 		m1 = m1[250:500,805:1068]
 		# m2 = img[280:520,805:1058]
 		# m1 = img[280:520,805:1058]
-		pytesseract.pytesseract.tesseract_cmd = r"C:\Users\jack_\AppData\Local\Programs\Tesseract-OCR\tesseract.exe"
+		
 		text = pytesseract.image_to_string(m3, lang='chi_tra')
 		if "妙蛙花" not in text:
 			m1 = cv2.inRange(m1, (240,240,240),(255,255,255))
