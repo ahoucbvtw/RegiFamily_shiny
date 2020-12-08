@@ -19,7 +19,7 @@ def shinny_check():
 		# m3為擷取遇到野生怪時下方的對話框文字使用
 		m3 = cv2.resize(img, (1280, 720))
 		m3 = m3[550:700,110:450]
-		
+		pytesseract.pytesseract.tesseract_cmd = r"C:\Users\jack_\AppData\Local\Programs\Tesseract-OCR\tesseract.exe"
 		text = pytesseract.image_to_string(m3, lang='chi_tra')
 		cv2.imshow('cv2_BGR', img)
 		cv2.imshow('m3', m3)
