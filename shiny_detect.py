@@ -5,12 +5,12 @@ import pytesseract
 from time import sleep
 from numbermove import Autocar
 
-def shinny_check():
-	shinny = "0"
+def shiny_check():
+	shiny = "0"
 	video = cv2.VideoCapture(2, cv2.CAP_DSHOW)
 	# fourcc = cv2.VideoWriter_fourcc(*'X264')
-	# out = cv2.VideoWriter('Shinny.mp4', fourcc, 20.0, (1280, 720))
-	# video = cv2.VideoCapture("shinny.mp4")
+	# out = cv2.VideoWriter('shiny.mp4', fourcc, 20.0, (1280, 720))
+	# video = cv2.VideoCapture("shiny.mp4")
 	while(video.isOpened()):
 		t3 = datetime.datetime.now()
 		sleep(0.05)
@@ -35,7 +35,7 @@ def shinny_check():
 			# out.write(img)
 			if cv2.waitKey(15) != -1 or len(a) > 5 or t3 >= t2:
 				print(len(a))
-				shinny = "1"
+				shiny = "1"
 				cv2.imwrite("z1.jpg", m2)
 				cv2.imwrite("z.jpg", m1)
 				cv2.imwrite("z2.jpg", img)
@@ -49,8 +49,8 @@ def shinny_check():
 	video.release()
 	# out.release()
 	cv2.destroyAllWindows()
-	print("shinny = ", shinny)
-	return shinny
+	print("shiny = ", shiny)
+	return shiny
 
 Car = Autocar()
 
@@ -64,10 +64,10 @@ while True:
 	check = "0"
 	NowTime = datetime.datetime.now()
 	if NowTime < carClose:
-		Car.go_shinny()
+		Car.go_shiny()
 		t1 = datetime.datetime.now()
 		t2 = t1 + datetime.timedelta(seconds = 15)
-		check = shinny_check()
+		check = shiny_check()
 		if check == "1":
 			print("check : ", f"共執行 {count} 次遇到色違！！")
 			print("=============================================")
