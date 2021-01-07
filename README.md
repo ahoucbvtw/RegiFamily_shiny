@@ -6,9 +6,11 @@ Then use this model to encounter their shiny style automatically.
 這是我們的 logo （將滑鼠移到圖片上會顯示圖片標題）：
 
 行內格式：
+
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo 標題文字範例一")
 
 參考連結格式：
+
 ![alt text][logo]
 
 [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo 標題文字範例二"
