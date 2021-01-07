@@ -3,7 +3,7 @@ I was build a simple CNN to identify the **Legendary Titans**：**Regirock**, **
 
 Then use this model to encounter their shiny style automatically.
 
-這是我們的 logo （將滑鼠移到圖片上會顯示圖片標題）：
+
 
 行內格式：
 
