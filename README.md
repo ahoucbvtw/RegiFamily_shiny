@@ -15,7 +15,7 @@ Result_Shiny：
 ---
 ### Requirements
 - ##### Environment
-  - 
+
 || Version & Specification | 
 |---------|---------| 
 | **OS** | Windows10 |
