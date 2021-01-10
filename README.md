@@ -20,7 +20,7 @@ Result_Shiny：
 |---------|---------| 
 | **OS** | Windows10 |
 | **GPU** | GeForce GTX 1050Ti |
-| ** NVIDIA Driver** | 456.71 - WHQL |
+| **NVIDIA Driver** | 456.71 - WHQL |
 | **Tensorflow-GPU** | 2.3.1 |
 | **CUDA & cuDNN** | 10.1 & v7.6.5 |
 
