@@ -14,7 +14,7 @@ Result_Shiny：
 
 ---
 ### Requirements
-- ##### Environment
+- Environment
 
 || Version & Specification | 
 |---------|---------| 
@@ -24,7 +24,7 @@ Result_Shiny：
 | **Tensorflow-GPU** | 2.3.1 |
 | **CUDA & cuDNN** | 10.1 & v7.6.5 |
 
-- ##### Necessary for Python Package
+- Necessary for Python Package
   - 【**tensorflow-gpu 2.3.1**】
   
     This Package is must important to use GPU for high performance numerical computation.
