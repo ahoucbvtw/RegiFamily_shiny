@@ -88,7 +88,7 @@ Result_Shiny：
   
    - **Shiny RegiFamily**
    
-     Because of I never encounter the shiny RegiFamily, I found the shiny RegiFamily from YouTubbe as my Training pictures.
+     Because of I never encounter the shiny RegiFamily, I found the shiny RegiFamily from YouTube as my Training pictures.
    
    - **NotShiny RegiFamily**
    
