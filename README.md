@@ -80,5 +80,12 @@ Result_Shiny：
    
 3. 【 Save Pictures from videos ： [**Pictures_save.py**](https://github.com/ahoucbvtw/RegiFamily_shiny/blob/master/Pictures_save.py) 】
 	
-	Set how frequency to get pictures and take frames to numpy array from videos. 
+	Set how frequency to get pictures and take frames to numpy array from videos.
+    
+    According to I discovered the cave's light (background) was different in morning and night, I decided to gather all the morning and night pictures to enhance my identity rate.
+    
+    ![alt text](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/Morning_vs_night.jpg "Morning vs Night")
   
+   - Shiny RegiFamily
+   
+   - NotShiny RegiFamily
