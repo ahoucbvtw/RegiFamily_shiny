@@ -68,7 +68,7 @@ Result_Shiny：
 
  	I use HDMI→USB video capture card as my Switch's video input.
   
-  ![Video Capture Card](https://d.ecimg.tw/items/DMAA6NA900APS1A/000001_1592269853.jpg)
+  ![Video Capture Card](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/VideoCaptureDevice.png)
 
 2. 【 Record videos ： [**Video_save.py**](https://github.com/ahoucbvtw/RegiFamily_shiny/blob/master/Video_save.py) 】
 
