@@ -66,7 +66,7 @@ Result_Shiny：
 ## Make Training Pictures
 1. 【 Video Capture Device 】
 
- 	I use HDMI→USB video capture card as my Switch's video input.
+ 	I use HDMI→USB video capture device as my Switch's video input.
   
   ![Video Capture Card](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/VideoCaptureDevice.png)
 
