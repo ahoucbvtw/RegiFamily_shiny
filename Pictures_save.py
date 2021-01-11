@@ -38,5 +38,5 @@ x = "mp4 file"
 video_path = f'./{x}'
 video_name = x.split(".")[0]
 savepath = "savepath"
-video_images = get_images_from_video(video_path, Frame) # take each seted frame from picture
+video_images = get_images_from_video(video_path, Frame) # take each setted frame from picture
 save_image(video_images, savepath, video_name)
