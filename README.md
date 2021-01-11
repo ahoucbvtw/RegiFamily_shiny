@@ -68,7 +68,7 @@ Result_Shiny：
 
  	I use HDMI→USB video capture card as my Switch's video input.
   
-   ![alt text](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/VideoCaptureDevice.png "Video Capture Device")
+  ![Video Capture Card](https://d.ecimg.tw/items/DMAA6NA900APS1A/000001_1592269853.jpg)
 
 2. 【 Record videos ： [**Video_save.py**](https://github.com/ahoucbvtw/RegiFamily_shiny/blob/master/Video_save.py) 】
 
@@ -86,6 +86,14 @@ Result_Shiny：
     
     ![alt text](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/Morning_vs_night.jpg "Morning vs Night")
   
-   - Shiny RegiFamily
+   - **Shiny RegiFamily**
    
-   - NotShiny RegiFamily
+     Because of I never encounter the shiny RegiFamily, I found the shiny RegiFamily from YouTubbe as my Training pictures.
+   
+   - **NotShiny RegiFamily**
+   
+     I recorded all the RegiFamily normal color with Video Capture Device morning and night the time in the game.
+     
+     Then the frame was setted 1 when I was saved training pictures.
+     
+---
