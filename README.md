@@ -1,4 +1,4 @@
-## RegiFamily Shiny or NotShiny
+# RegiFamily Shiny or NotShiny
 ---
 I was build a simple CNN to identify the **Legendary Titans**：**Regirock**, **Registeel**, **Regice**, **Regieleki**,  **Regidrago** these 5 pokemons  in Switch Game Pokemon Sword and Shield.
 
@@ -13,7 +13,7 @@ Result_Shiny：
 ![alt text](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/ShinyResult_377.jpg "Shiny Regirock！！")
 
 ---
-### Requirements
+## Requirements
 - Environment
 
 || Version & Specification | 
@@ -63,7 +63,7 @@ Result_Shiny：
     - Install Command : **pip install numpy**
 
 ---
-### Make Training Pictures
+## Make Training Pictures
 1. 【 Video Capture Device 】
 
  	I use HDMI→USB video capture card as my Switch's video input.
