@@ -122,6 +122,24 @@ Why not try more other famous models？ The reason is use VGG16 to identify this
 ![alt text](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/VGG16_379loss1.png "Registeel Training & Validation Loss")
 ![alt text](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/VGG16_379accuracy1.png "Registeel Training & Validation Accuracy")
 
-But Regice is different. Other RegiFamily's shiny type has large of difference from normal type, only Regice's two of types are vary close, event human eyes can not identify without any information.
+But Regice is different. Other RegiFamily's shiny type has large of difference from normal type, only Regice's two of types are vary close, even human eyes can not identify without any information.
 
 Thus, I use image process to catch definitely appeared the shiny light when encountered shiny Pokemon. 
+
+## Movie
+
+- **CNN (VGG16)**
+
+  - **Regirock Auto Shiny Farming ：**
+
+    [![d](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/377_Auto_Shiny_Farming.jpg)](http://www.youtube.com/watch?v=v_71KjZrdEY "377 Regirock Auto Shiny Farming Use CNN")
+    
+  - **Registeel Auto Shiny Farming ：**
+  
+    [![d](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/379_Auto_Shiny_Farming.jpg)](https://www.youtube.com/watch?v=YQHtD1ixFeM "379 Registeel Auto Shiny Farming Use CNN")
+    
+- **Image Process (OpenCV)**
+
+  - **Regice Auto Shiny Farming ：**
+
+    [![d](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/378_Auto_Shiny_Farming.jpg)](https://www.youtube.com/watch?v=auTGc-Dpkzk "378 Regice Auto Shiny Farming Use Image Process")
