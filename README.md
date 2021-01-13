@@ -110,12 +110,12 @@ Why not try more other famous models？ The reason is use VGG16 to identify this
 **Regirock** training loss & accuracy ：
 
 ![alt text](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/VGG16_377_loss1.png "Regirock Training & Validation Loss")
-![alt text](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/VGG16_377accurancy1.png "Regirock Training & Validation Accuracy")
+![alt text](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/VGG16_377accuracy.png "Regirock Training & Validation Accuracy")
 
 **Regice** training loss & accuracy ：
 
 ![alt text](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/VGG16_378_loss1.png "Regice Training & Validation Loss")
-![alt text](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/VGG16_378_accurancy1.png "Regice Training & Validation Accuracy")
+![alt text](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/VGG16_378accuracy.png "Regice Training & Validation Accuracy")
 
 **Registeel** training loss & accuracy ：
 
