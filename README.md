@@ -73,25 +73,25 @@ Then use this model to encounter their shiny style automatically.
 ## Make Training Pictures
 1. 【 Video Capture Device 】
 
-  I use HDMI→USB video capture card as my Switch's video input.
+   I use HDMI→USB video capture card as my Switch's video input.
   
-  ![Video Capture Card](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/VideoCaptureDevice.png)
+   ![Video Capture Card](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/VideoCaptureDevice.png)
 
 2. 【 Record videos ： [**Video_save.py**](https://github.com/ahoucbvtw/RegiFamily_shiny/blob/master/Video_save.py) 】
 
-  I use Video Capture Device as my Switch's video input, and use **cv2.VideoWriter_fourcc** to save videos. 
+   I use Video Capture Device as my Switch's video input, and use **cv2.VideoWriter_fourcc** to save videos. 
     
-    Because of I saved the video as MP4,  **openh264-1.7.0-win64.dll**  this file was necessary.
+   Because of I saved the video as MP4,  **openh264-1.7.0-win64.dll**  this file was necessary.
   
    [**openh264 Download here**](https://github.com/cisco/openh264/releases)
    
 3. 【 Save Pictures from videos ： [**Pictures_save.py**](https://github.com/ahoucbvtw/RegiFamily_shiny/blob/master/Pictures_save.py) 】
   
-  Set how frequency to get pictures and take frames to numpy array from videos.
+   Set how frequency to get pictures and take frames to numpy array from videos.
     
-  According to I discovered the cave's light (background) was different in morning and night, I decided to gather all the morning and night pictures to enhance my identity rate.
+   According to I discovered the cave's light (background) was different in morning and night, I decided to gather all the morning and night pictures to enhance my identity rate.
     
-  ![alt text](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/Morning_vs_night.jpg "Morning vs Night")
+   ![alt text](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/Morning_vs_night.jpg "Morning vs Night")
   
    - **Shiny RegiFamily**
    
