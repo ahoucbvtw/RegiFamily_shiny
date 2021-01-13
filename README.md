@@ -124,7 +124,22 @@ Why not try more other famous models？ The reason is use VGG16 to identify this
 
 But Regice is different. Other RegiFamily's shiny type has large of difference from normal type, only Regice's two of types are vary close, even human eyes can not identify without any information.
 
-Thus, I use image process to catch definitely appeared the shiny light when encountered shiny Pokemon. 
+![alt text](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/RegiFamily%20Shiny%20vs%20NotShiny.png "RegiFamily Shiny vs NotShiny")
+
+Thus, I use image process to catch definitely appeared the shiny light when encountered shiny Pokemon. → **[shiny_detect.py](https://github.com/ahoucbvtw/RegiFamily_shiny/blob/master/shiny_detect.py/)**
+
+I use **cv2.inRange** to catch the ShinyLight, and use **cv2.dilate** to make my target more cleary, then use **cv2.findContours** to find the contour point and count it. 
+
+If the ShinyLight contour point is more than 6 even 8, it must be encounterd the shiny Regice certainly.
+
+```
+m1 = cv2.inRange(m1, (240,240,240),(255,255,255))
+m1 = cv2.dilate(m1, np.ones((30,23)))
+z, a, b = cv2.findContours(m1, cv2.RETR_TREE, cv2.CHAIN_APPROX_NONE)
+```
+
+![alt text](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/Result_OpenCV_378_ShinyLight.jpg "ShinyLight Contour Point")
+![alt text](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/Result_OpenCV_378_Shiny.jpg "Shiny Regice！！")
 
 ## Movie
 
