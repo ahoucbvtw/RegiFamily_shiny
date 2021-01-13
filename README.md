@@ -107,11 +107,20 @@ According to the result, the VGG16 is the best model in this project.
 
 Why not try more other famous models？ The reason is use VGG16 to identify this project is enough. In actual fact, its identity rate was vary high even closed to 100% when I was used.
 
-Regirock training loss & accuracy ：
+**Regirock** training loss & accuracy ：
 
-![alt text](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/VGG16_377_loss1.png "Training & Validation Loss")
+![alt text](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/VGG16_377_loss1.png "Regirock Training & Validation Loss")
+![alt text](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/VGG16_377accurancy1.png "Regirock Training & Validation Accuracy")
 
-![alt text](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/VGG16_377accurancy1.png "Training & Validation Accuracy")
+**Regice** training loss & accuracy ：
+
+![alt text](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/VGG16_378_loss1.png "Regice Training & Validation Loss")
+![alt text](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/VGG16_378_accurancy1.png "Regice Training & Validation Accuracy")
+
+**Registeel** training loss & accuracy ：
+
+![alt text](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/VGG16_379loss1.png "Registeel Training & Validation Loss")
+![alt text](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/VGG16_379accuracy1.png "Registeel Training & Validation Accuracy")
 
 But Regice is different. Other RegiFamily's shiny type has large of difference from normal type, only two of type Regice are vary close, event human eyes can not identify without any information.
 
