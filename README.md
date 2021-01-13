@@ -89,9 +89,9 @@ Then use this model to encounter their shiny style automatically.
   
   Set how frequency to get pictures and take frames to numpy array from videos.
     
-    According to I discovered the cave's light (background) was different in morning and night, I decided to gather all the morning and night pictures to enhance my identity rate.
+  According to I discovered the cave's light (background) was different in morning and night, I decided to gather all the morning and night pictures to enhance my identity rate.
     
-    ![alt text](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/Morning_vs_night.jpg "Morning vs Night")
+  ![alt text](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/Morning_vs_night.jpg "Morning vs Night")
   
    - **Shiny RegiFamily**
    
