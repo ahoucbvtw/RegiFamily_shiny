@@ -2,7 +2,7 @@
 
 I was build a simple CNN to identify the **Legendary Titans**：**Regirock**, **Registeel**, **Regice**, **Regieleki**,  **Regidrago** these 5 pokemons  in Switch Game Pokemon Sword and Shield.
 
-Then use this model to encounter their shiny type automatically.
+Then use this model to encounter their shiny style automatically.
 
 **Result_NotShiny：**
 
@@ -73,21 +73,21 @@ Then use this model to encounter their shiny type automatically.
 ## Make Training Pictures
 1. 【 Video Capture Device 】
 
- 	I use HDMI→USB video capture card as my Switch's video input.
+  I use HDMI→USB video capture card as my Switch's video input.
   
   ![Video Capture Card](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/VideoCaptureDevice.png)
 
 2. 【 Record videos ： [**Video_save.py**](https://github.com/ahoucbvtw/RegiFamily_shiny/blob/master/Video_save.py) 】
 
-	I use Video Capture Device as my Switch's video input, and use **cv2.VideoWriter_fourcc** to save videos. 
+  I use Video Capture Device as my Switch's video input, and use **cv2.VideoWriter_fourcc** to save videos. 
     
     Because of I saved the video as MP4,  **openh264-1.7.0-win64.dll**  this file was necessary.
   
    [**openh264 Download here**](https://github.com/cisco/openh264/releases)
    
 3. 【 Save Pictures from videos ： [**Pictures_save.py**](https://github.com/ahoucbvtw/RegiFamily_shiny/blob/master/Pictures_save.py) 】
-	
-	Set how frequency to get pictures and take frames to numpy array from videos.
+  
+  Set how frequency to get pictures and take frames to numpy array from videos.
     
     According to I discovered the cave's light (background) was different in morning and night, I decided to gather all the morning and night pictures to enhance my identity rate.
     
@@ -132,7 +132,7 @@ But Regice is different. Other RegiFamily's shiny type has large of difference f
 
 ![alt text](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/RegiFamily%20Shiny%20vs%20NotShiny.png "RegiFamily Shiny vs NotShiny")
 
-Thus, I use image process to catch definitely appeared the shiny light when encountered shiny Pokemon. → **[shiny_detect.py](https://github.com/ahoucbvtw/RegiFamily_shiny/blob/master/shiny_detect.py/)**
+Thus, I use image process to catch definitely appeared the shiny light when encountered shiny Pokemon.   **[shiny_detect.py](https://github.com/ahoucbvtw/RegiFamily_shiny/blob/master/shiny_detect.py/)**
 
 I use **cv2.inRange** to catch the ShinyLight, and use **cv2.dilate** to make my target more cleary, then use **cv2.findContours** to find the contour point and count it. 
 
