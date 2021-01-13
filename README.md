@@ -1,19 +1,27 @@
 # RegiFamily Shiny or NotShiny
----
+
 I was build a simple CNN to identify the **Legendary Titans**：**Regirock**, **Registeel**, **Regice**, **Regieleki**,  **Regidrago** these 5 pokemons  in Switch Game Pokemon Sword and Shield.
 
 Then use this model to encounter their shiny style automatically.
 
-Result_NotShiny：
+**Result_NotShiny：**
 
 ![alt text](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/Result_377_NotShiny_morning0.jpg "Not Shiny Regirock！！")
 
-Result_Shiny：
+**Result_Shiny：**
 
 ![alt text](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/ShinyResult_377.jpg "Shiny Regirock！！")
 
----
+## List
+
+- **[Requirements](https://github.com/ahoucbvtw/RegiFamily_shiny#requirements)**
+- **[Make Training Pictures](https://github.com/ahoucbvtw/RegiFamily_shiny#make-training-pictures)**
+- **[Training](https://github.com/ahoucbvtw/RegiFamily_shiny#training)**
+- **[Demo Video](https://github.com/ahoucbvtw/RegiFamily_shiny#demo-video)**
+
+
 ## Requirements
+
 - Environment
 
 || Version & Specification | 
@@ -62,11 +70,10 @@ Result_Shiny：
     **[pypi : numpy](https://pypi.org/project/numpy/)**
     - Install Command : **pip install numpy**
 
----
 ## Make Training Pictures
 1. 【 Video Capture Device 】
 
- 	I use HDMI→USB video capture device as my Switch's video input.
+ 	I use HDMI→USB video capture card as my Switch's video input.
   
   ![Video Capture Card](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/VideoCaptureDevice.png)
 
@@ -95,8 +102,7 @@ Result_Shiny：
      I recorded all the RegiFamily normal color with Video Capture Device morning and night the time in the game.
      
      Then the frame was setted 1 when I was saved training pictures.
-     
----
+    
 ## Training
 
 I build two models and the Dence layers was the same but convolutional layers was different for training.
@@ -143,7 +149,7 @@ z, a, b = cv2.findContours(m1, cv2.RETR_TREE, cv2.CHAIN_APPROX_NONE)
 
 ![alt text](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/378shiny_log.jpg "Encounter Shiny Regice's Log")
 
-## Movie
+## Demo Video
 
 - **CNN (VGG16)**
 
