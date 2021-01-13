@@ -126,7 +126,7 @@ But Regice is different. Other RegiFamily's shiny type has large of difference f
 
 ![alt text](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/RegiFamily%20Shiny%20vs%20NotShiny.png "RegiFamily Shiny vs NotShiny")
 
-Thus, I use image process to catch definitely appeared the shiny light when encountered shiny Pokemon. → **[shiny_detect.py](https://github.com/ahoucbvtw/RegiFamily_shiny/blob/master/shiny_detect.py/)**
+Thus, I use image process to catch definitely appeared the shiny light when encountered shiny Pokemon.  **[shiny_detect.py](https://github.com/ahoucbvtw/RegiFamily_shiny/blob/master/shiny_detect.py/)**
 
 I use **cv2.inRange** to catch the ShinyLight, and use **cv2.dilate** to make my target more cleary, then use **cv2.findContours** to find the contour point and count it. 
 
