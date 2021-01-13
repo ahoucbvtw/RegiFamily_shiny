@@ -122,6 +122,6 @@ Why not try more other famous models？ The reason is use VGG16 to identify this
 ![alt text](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/VGG16_379loss1.png "Registeel Training & Validation Loss")
 ![alt text](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/VGG16_379accuracy1.png "Registeel Training & Validation Accuracy")
 
-But Regice is different. Other RegiFamily's shiny type has large of difference from normal type, only two of type Regice are vary close, event human eyes can not identify without any information.
+But Regice is different. Other RegiFamily's shiny type has large of difference from normal type, only Regice's two of types are vary close, event human eyes can not identify without any information.
 
 Thus, I use image process to catch definitely appeared the shiny light when encountered shiny Pokemon. 
