@@ -97,3 +97,22 @@ Result_Shiny：
      Then the frame was setted 1 when I was saved training pictures.
      
 ---
+## Training
+
+I build two models and the Dence layers was the same but convolutional layers was different for training.
+
+First was use Transfer Learning (VGG16), second was slef-build convolutional layers. Use these two models to compare witch one is more simple, fast, high accuracy.
+
+According to the result, the VGG16 is the best model in this project.
+
+Why not try more other famous models？ The reason is use VGG16 to identify this project is enough. In actual fact, its identity rate was vary high even closed to 100% when I was used.
+
+Regirock training loss & accuracy ：
+
+![alt text](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/VGG16_377_loss1.png "Training & Validation Loss")
+
+![alt text](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/VGG16_377accurancy1.png "Training & Validation Accuracy")
+
+But Regice is different. Other RegiFamily's shiny type has large of difference from normal type, only two of type Regice are vary close, event human eyes can not identify without any information.
+
+Thus, I use image process to catch definitely appeared the shiny light when encountered shiny Pokemon. 
