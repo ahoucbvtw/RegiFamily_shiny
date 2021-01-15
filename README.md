@@ -128,7 +128,17 @@ Why not try more other famous models？ The reason is use VGG16 to identify this
 ![alt text](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/VGG16_379loss1.png "Registeel Training & Validation Loss")
 ![alt text](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/VGG16_379accuracy1.png "Registeel Training & Validation Accuracy")
 
-But Regice is different. Other RegiFamily's shiny type has large of difference from normal type, only Regice's two of types are vary close, even human eyes can not identify without any information.
+**Regieleki** training loss & accuracy ：
+
+![alt text](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/VGG16_894_loss.png "Regieleki Training & Validation Loss")
+![alt text](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/VGG16_894_accuracy.png "Regieleki Training & Validation Accuracy")
+
+**Regidrago** training loss & accuracy ：
+
+![alt text](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/VGG16_895_loss.png "Regidrago Training & Validation Loss")
+![alt text](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/VGG16_895_accuracy.png "Regidrago Training & Validation Accuracy")
+
+But Regice and Regieleki are different. Other RegiFamily's shiny type has large of difference from normal type, only Regice and Regieleki there two of types are vary close, even human eyes can not identify without any information.
 
 ![alt text](https://raw.githubusercontent.com/ahoucbvtw/RegiFamily_shiny/master/Picture/RegiFamily%20Shiny%20vs%20NotShiny.png "RegiFamily Shiny vs NotShiny")
 
